@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SSL-SUPLEMENTOS</string>
+    <string name="menuAcesso">MENU ACESSO</string>
+    <string name="cadastrar">CADASTRAR</string>
+    <string name="produto">PRODUTO</string>
+    <string name="pedido">PEDIDO</string>
+    <string name="destaque">ssl-suplementos:"</string>
+    <string name="cadastrar2">MENSAGEM</string>
+    <string name="politica">SSL Suplementos Alimentares é uma empresa inovadora,
+            já com cinco anos no mercado, possuindo, assim,
+            credibilidade na área. Contamos com duas lojas físicas no interior do Rio de Janeiro,
+            localizadas nas cidades de Campos dos Goytacazes e São Fidélis,
+            além de representantes em todo Brasil.</string>
+    <string name="cnpj">Diretor:Ivan Plouvier
+                        CNPJ:18453437/0001-02 -
+                        Rua Senador Salgado Filho, 212 -
+                        Campos dos Goutacazes - Rio de Janeiro, RJ 28053-030 -
+                        http://sslsuplementos.com.br/</string>
+    <string name="title_activity_produto_n">ProdutoNActivity</string>
+    <string name="Ttextnome">Nome:</string>
+    <string name="URL">http://sslsuplementos.herokuapp.com/</string>
+</resources>

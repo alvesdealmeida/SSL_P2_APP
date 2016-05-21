@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".activity.CadastrarActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deixe aqui teu comentario:"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/meNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome:"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapSentences|textPersonName"
+        android:ems="10"
+        android:layout_marginTop="0dp"
+        android:hint="nome"
+        android:textSize="15dp"
+        android:background="#000000"
+        android:textColor="#F8F8FF"
+        android:id="@+id/editNome" />
+
+    <TextView
+        android:id="@+id/meEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMAIL:"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:hint="email"
+        android:textSize="15dp"
+        android:background="#000000"
+        android:textColor="#F8F8FF"
+        android:id="@+id/editEmail" />
+
+        <TextView
+            android:id="@+id/meAssunto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Assunto:"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"/>
+
+        <EditText
+            android:id="@+id/editAssunto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences|text"
+            android:background="#000000"
+            android:textColor="#F8F8FF"
+            android:hint="Sugestao,critica,elogio..." />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/editMss"
+        android:background="#000000"
+        android:textColor="#F8F8FF"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:maxLength="350"
+        android:maxLines="10"
+        android:scrollHorizontally="false"
+        android:scrollbars="vertical"
+        android:inputType="textCapSentences|textMultiLine"
+        android:gravity="top"
+        android:layout_weight="1.00"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text=""
+        android:background="@drawable/dsk"
+        android:id="@+id/btEnviar"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
